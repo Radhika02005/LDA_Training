@@ -1,48 +1,45 @@
 # LDA_Training
 Linear Discriminant Analysis (LDA) for Classification
 
-Overview
+# Overview
 
 This project implements Linear Discriminant Analysis (LDA) to classify samples as "Good" or "Bad" based on sensor readings. The dataset is preprocessed, normalized, and projected onto an LDA component for visualization and analysis.
 
-Features
+# Features
 
-Data Preprocessing: Handles dataset loading, balancing, and normalization.
+•Data Preprocessing: Handles dataset loading, balancing, and normalization.
 
-LDA Implementation: Uses sklearn.discriminant_analysis.LinearDiscriminantAnalysis.
+•LDA Implementation: Uses sklearn.discriminant_analysis.LinearDiscriminantAnalysis.
 
-Visualization: Generates histograms to visualize class separation.
+•Visualization: Generates histograms to visualize class separation.
 
-Feature Importance Analysis: Determines feature contributions using LDA coefficients.
+•Feature Importance Analysis: Determines feature contributions using LDA coefficients.
 
-Installation
+# Installation
 
 Install dependencies using:
 
 pip install pandas numpy matplotlib scikit-learn
 
-Usage
+# Usage
 
-Load dataset and assign labels based on conditions.
+1.Load dataset and assign labels based on conditions.
 
-Normalize features using StandardScaler.
+2.Normalize features using StandardScaler.
 
-Perform LDA and project data onto a single component.
+3.Perform LDA and project data onto a single component.
 
-Visualize results using histograms.
+4.Visualize results using histograms.
 
-Analyze feature contributions using LDA coefficients.
+5.Analyze feature contributions using LDA coefficients.
 
-Expected Output
+# Expected Output
 
 Histogram Plot: Displays class separation.
 
 Feature Importance Table: Ranks feature contributions.
 
-License
+# License
 
 Open-source under the MIT License.
-
-Author
-
-Created by [Your Name]
+Created by Radhika Goel
